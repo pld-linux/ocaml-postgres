@@ -1,0 +1,3 @@
+- fixed URL
+- moved %%{_libdir}/ocaml/postgres to main package (from -devel)
+- -devel now owns entiere site-lib/postgres, not only META in it
