@@ -8,6 +8,7 @@ Group:		Libraries
 Vendor:		Alain Frisch <Alain.Frisch@ens.fr>
 URL:		http://www.eleves.ens.fr:8080/home/frisch/soft/
 Source0:	http://www.eleves.ens.fr:8080/home/frisch/info/postgres-%{version}.tar.gz
+# Source0-md5:	004081230795b7d4709b21ef959fcdf5
 BuildRequires:	postgresql-backend-devel
 BuildRequires:	postgresql-devel
 BuildRequires:	ocaml
