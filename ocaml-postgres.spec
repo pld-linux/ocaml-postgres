@@ -6,6 +6,8 @@ Release:	1
 License:	LGPL
 Group:		Libraries
 Vendor:		Alain Frisch <Alain.Frisch@ens.fr>
+# note: no / at the end of URL
+URL:		http://www.eleves.ens.fr/home/frisch/soft
 Source0:	http://www.eleves.ens.fr/home/frisch/info/postgres-%{version}.tar.gz
 # Source0-md5:	b231826b3e769e4afb6c4556159b7b9a
 BuildRequires:	postgresql-backend-devel
