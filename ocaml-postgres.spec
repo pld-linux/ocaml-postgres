@@ -69,8 +69,6 @@ install -d $RPM_BUILD_ROOT%{_libdir}/ocaml/site-lib/postgres
 echo 'directory = "+postgres"' >> META
 install META $RPM_BUILD_ROOT%{_libdir}/ocaml/site-lib/postgres
 
-gzip -9nf README *.mli
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -82,7 +80,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README *.mli
 %{_libdir}/ocaml/postgres/*.cm[ixa]*
 %{_libdir}/ocaml/postgres/*.a
 %{_examplesdir}/%{name}-%{version}
