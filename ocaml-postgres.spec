@@ -6,7 +6,7 @@ Release:	1
 License:	LGPL
 Group:		Libraries
 Vendor:		Alain Frisch <Alain.Frisch@ens.fr>
-URL:		http://www.eleves.ens.fr:8080/home/frisch/soft
+URL:		http://www.eleves.ens.fr:8080/home/frisch/soft/
 Source0:	http://www.eleves.ens.fr:8080/home/frisch/info/postgres-%{version}.tar.gz
 BuildRequires:	postgresql-backend-devel
 BuildRequires:	postgresql-devel
@@ -76,14 +76,14 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%dir %{_libdir}/ocaml/postgres
 %attr(755,root,root) %{_libdir}/ocaml/postgres/*.so
 %{_libdir}/ocaml/*.so
 
 %files devel
 %defattr(644,root,root,755)
 %doc *.gz
-%dir %{_libdir}/ocaml/postgres
 %{_libdir}/ocaml/postgres/*.cm[ixa]*
 %{_libdir}/ocaml/postgres/*.a
 %{_examplesdir}/%{name}-%{version}
-%{_libdir}/ocaml/site-lib/postgres/META
+%{_libdir}/ocaml/site-lib/postgres
