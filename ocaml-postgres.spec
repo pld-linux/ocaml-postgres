@@ -1,9 +1,9 @@
-%define		ocaml_ver	3.09.1
+%define		ocaml_ver	1:3.09.1
 Summary:	PostgreSQL binding for OCaml
 Summary(pl):	Wi±zania PostgreSQL dla OCamla
 Name:		ocaml-postgres
 Version:	20040120
-Release:	3
+Release:	4
 License:	LGPL v2
 Group:		Libraries
 URL:		http://www.eleves.ens.fr/home/frisch/soft
