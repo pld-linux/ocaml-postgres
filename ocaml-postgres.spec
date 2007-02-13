@@ -1,6 +1,6 @@
 %define		ocaml_ver	1:3.09.2
 Summary:	PostgreSQL binding for OCaml
-Summary(pl.UTF-8):   Wiązania PostgreSQL dla OCamla
+Summary(pl.UTF-8):	Wiązania PostgreSQL dla OCamla
 Name:		ocaml-postgres
 Version:	20040120
 Release:	6
@@ -29,7 +29,7 @@ uruchamiania programów używających tej biblioteki.
 
 %package devel
 Summary:	PostgreSQL binding for OCaml - development part
-Summary(pl.UTF-8):   Wiązania PostgreSQL dla OCamla - cześć programistyczna
+Summary(pl.UTF-8):	Wiązania PostgreSQL dla OCamla - cześć programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
